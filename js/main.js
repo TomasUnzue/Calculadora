@@ -12,7 +12,7 @@ botones.forEach(boton => {
             if (pantalla.textContent.length === 1 || pantalla.textContent === "error"){
                 pantalla.textContent = "0";
             }else {
-                pantalla.textContent = pantlla.textContent.slice(0,-1)
+                pantalla.textContent = pantalla.textContent.slice(0,-1)
             }
             return;
         }
